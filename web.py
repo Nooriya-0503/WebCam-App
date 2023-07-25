@@ -10,7 +10,8 @@ if camera_image:
     img = Image.open(camera_image)
 
     #Converting img to greyscale
-    grey_img = img.convert("L")
+    grey_img = img.convert("P")
 
     #Displaying the image using streamlit
     st.image(grey_img)
+    
