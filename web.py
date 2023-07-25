@@ -12,6 +12,8 @@ if camera_image:
     #Converting img to greyscale
     grey_img = img.convert("P")
 
-    #Displaying the image using streamlit
+    #Displaying the image using streamlit or use [img.show]-a function of pillow
     st.image(grey_img)
+
+
     
